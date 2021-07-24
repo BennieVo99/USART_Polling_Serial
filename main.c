@@ -26,7 +26,7 @@ int main(){
     USART_send('G',0);
     USART_send('\n',0);
     //Send String with double quotes
-    USART_putstring("DEP NHAT TREN DOI <3",0);
+    USART_putstring("CODER",0);
     USART_putstring("\n",0);
     //Delay for 1s
     _delay_ms(1000);
